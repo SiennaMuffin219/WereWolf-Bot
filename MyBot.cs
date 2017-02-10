@@ -313,7 +313,7 @@ namespace Loup_Garou
             {
                 try
                 {
-                    await discord.Connect("Mjc3NTk0NzIzNjI1OTkyMTkz.C3gB0w.XVskkSNdjbdtpZhxEv8s0FDb17w", TokenType.Bot);
+                    await discord.Connect("TokenBot", TokenType.Bot);
                     discord.SetGame("Être pas un MJ");
                 }
                 catch (Exception x)
